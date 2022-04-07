@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "richtext"
+    },
+    "jobDetails": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyLocation": {
+      "type": "string"
+    },
+    "Rating": {
+      "max": 10,
+      "min": 1,
+      "default": 5,
+      "type": "decimal"
+    },
+    "Tags": {
+      "displayName": "Tag",
+      "type": "component",
+      "repeatable": true,
+      "component": "tag.tag"
+    }
+  }
+}
