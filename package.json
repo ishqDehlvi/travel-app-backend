@@ -1,5 +1,5 @@
 {
-  "name": "travel",
+  "name": "server",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,16 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
-    "@strapi/plugin-i18n": "4.1.7",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/strapi": "4.1.8",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "1d03c22e-ecd0-4218-8898-21ac5d487ccb"
+    "uuid": "e098f6f2-db80-47d4-aaf6-1a6757b3600f"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",

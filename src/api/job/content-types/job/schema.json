@@ -18,7 +18,7 @@
     "jobDescription": {
       "type": "richtext"
     },
-    "jobDetails": {
+    "requiredDocuments": {
       "type": "richtext"
     },
     "image": {
@@ -46,6 +46,65 @@
       "type": "component",
       "repeatable": true,
       "component": "tag.tag"
+    },
+    "sallery": {
+      "type": "biginteger"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "noOfVacancy": {
+      "type": "biginteger"
+    },
+    "jobType": {
+      "type": "string"
+    },
+    "jobLocation": {
+      "type": "string"
+    },
+    "qualifcation": {
+      "type": "string"
+    },
+    "ageLimit": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "hoursOfWork": {
+      "type": "integer"
+    },
+    "keySkills": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "Relocation": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "contract": {
+      "type": "string"
+    },
+    "timings": {
+      "type": "string"
+    },
+    "locatedRemotely": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
     }
   }
 }
